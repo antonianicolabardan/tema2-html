@@ -1,0 +1,313 @@
+*
+{
+box-sizing: border-box;
+}
+body {
+background-color: #004d26;
+font-family: Trebuchet MS;
+	}
+h1 {
+	font-size:300%;
+	text-align: center;
+	word-spacing: 30px;
+	}
+h2 a{
+	background-color: black;
+	font-weight:bold;
+	border-radius:12px;
+	text-align: -webkit-center;
+	font-size: 190%;
+	}
+h2 {
+	font-size: 200%;
+	}
+footer {
+	background-color:MediumSeaGreen;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 50px;
+	padding: 1px;
+		}
+.landing {
+	margin-top: 575px;
+}
+.navbar {
+		height:100px;
+		background-color:MediumSeaGreen;
+		border-radius: 5px;
+		}
+.navbar img {
+			margin:10px 10px;
+			height:50%;
+			}
+.navbar h1 {
+			display: inline;
+			margin: 150px 150px;
+			vertical-align:10%;
+			}
+.meniu li
+		{
+		background-color:#004d26;
+		padding:5px 10px;
+		border-radius:8px;
+		}
+.meniu a:hover{
+		color: MediumSeaGreen;
+		}
+.meniu a {
+		text-decoration:none;
+		color:White;
+		}
+.orizontal {
+			display: inline;
+			vertical-align:50%;
+			margin-left:225px;
+			font-size: 140%;
+			}
+.orizontal li {
+			display: inline;
+			}
+.promo {
+		background-image:url("white.jpg");
+		padding: 1px;
+		border-style: double;
+		border-color: MediumSeaGreen;
+		border-width: thick;
+		}
+.promo a {
+	text-decoration: none;
+	color:SpringGreen;
+		}
+.promo a:hover {
+	background-color: SpringGreen;
+	transition-duration: 0.7s;
+	color: black;
+	border-radius:12px;
+				}
+.promo h2 {
+		text-align: center;
+		color:MediumSeaGreen;
+		}
+.img {
+	float: left;
+	width: 50%;
+	border-style: double;
+	border-color: MediumSeaGreen;
+	border-width: thick;
+	}
+.sectiune{
+	display: flex !important;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+	width:70%;
+	}
+.citat {
+	text-align: center;
+	font-family: Papyrus;
+	font-size: 380%;
+	color: MediumSeaGreen;
+	border-style: double none none none;
+	border-color: MediumSeaGreen;
+	border-width: thick;
+	margin: 10px;
+	}
+.autor {
+	text-align: right;
+	font-size: 300%;
+	font-family: Papyrus;
+	color: MediumSeaGreen;
+	border-style: none none double none;
+	border-color: MediumSeaGreen;
+	border-width: thick;
+	margin: 0px 0px;
+	padding-right: 100px;
+	}
+.instructiuni {
+	text-align: center;
+	font-size: 250%;
+	color: MediumSeaGreen;
+	border-style: none double none double;
+	border-color: MediumSeaGreen;
+	border-width: thick;
+	}
+.how {
+	margin-bottom:0px;
+	border-top: double;
+	border-color: MediumSeaGreen;
+	border-width: thick;
+
+	}
+.work {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+.music {
+	margin-top: 0px;
+	padding-left: 175px;
+	padding-right: 175px;
+	border-bottom: double;
+	border-color: MediumSeaGreen;
+	border-width: thick;
+	}
+.pe-treime ul {
+    color: MediumSeaGreen;
+	text-align: center;
+    font-size: 130%;
+    padding-top: 135px;
+    padding-left: 160px;
+	padding-right: 170px;
+	list-style-type: circle;
+	}
+.pe-treime {
+    width: 33%;
+    float: left;
+    background-image:url("phone.png");
+    padding-bottom: 143px;
+    }
+.pagina {
+	text-align: center;
+	background-color: MediumSeaGreen;
+	margin-left: 600px;
+	margin-right: 600px;
+	}
+.introduction {
+	color: MediumSeaGreen;
+	text-align: center;
+	font-size: 200%;
+	border-style: double none double none;
+	border-color: MediumSeaGreen;
+	border-width: thick;
+	margin: 10px;
+	padding-left: 250px;
+	padding-right: 250px;
+	}
+.treime {
+	background-color: black;
+	color: MediumSeaGreen;
+	border-style: double;
+	border-color: MediumSeaGreen;
+	border-width: thick;
+	width: 33%;
+	float: left;
+	text-align: center;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+.treime h3 {
+	font-size: 200%;
+}
+.treime h4 {
+	text-decoration: underline;
+	font-size: 160%;
+}
+.treime ul {
+	color: MediumSeaGreen;
+	text-align: center;
+    font-size: 175%;
+	list-style-type: none;
+	padding-bottom: 50px;
+	}
+.div p {
+	color: MediumSeaGreen;
+}
+.about {
+	display: flex;
+	width: 100%;
+	color: MediumSeaGreen;
+	border-style: double none double none;
+	border-color: MediumSeaGreen;
+	border-width: thick;
+}
+.global {
+	display: block;
+	margin-left: 250px;
+	margin-right: auto;
+	width: 7%;
+}
+.team {
+	font-size: 200%;
+	text-align: center;
+	color: MediumSeaGreen;
+}
+.barbati {
+	display: flex;
+	justify-content: space-between;
+	margin: 75px;
+}
+.gallery {
+	background-color: MediumSeaGreen;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	width: 25%;
+	text-align: center;
+	color: #004d26;
+}
+.business {
+	width: 100%;
+}
+.femei {
+	display: flex;
+	justify-content: space-between;
+	margin: 45px;
+}
+.paginac {
+	text-align: center;
+	background-color: MediumSeaGreen;
+	margin-left: 650px;
+	margin-right: 650px;
+	position: absolute;
+	top: 32%;
+	}
+.contacto {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.aici {
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+	margin-bottom: 75px;
+}
+.harta {
+	float: right;
+}
+.social {
+	display: flex;
+	list-style-type: none !important;
+	flex-direction: row;
+	border-style: double;
+	border-color: MediumSeaGreen;
+	border-width: thick;
+	margin: 5px;
+	padding-left: 230px;
+	padding-right: 0px;
+}
+.social img {
+	width: 30%;
+	margin: 20px;
+}
+.also {
+	color: MediumSeaGreen;
+	text-align: center;
+	font-size: 200%;
+	border-style: double none double none;
+	border-color: MediumSeaGreen;
+	border-width: thick;
+	margin: 10px;
+	padding-left: 250px;
+	padding-right: 250px;
+	margin-bottom: 25px;
+}
+.us {
+	color: MediumSeaGreen;
+	border-style: double none double none;
+	border-color: MediumSeaGreen;
+	border-width: thick;
+	font-size: 175%;
+}
+.us ul {
+	list-style-type: none;
+	padding-top: 50px;
+}
